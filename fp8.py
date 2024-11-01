@@ -44,7 +44,7 @@ def retrieve_data():
     # Prompt the user for a password (typed into the console)
     guess_password = input("Enter password to retrieve data: ")
     # Check if the password is correct (hardcoded for simplicity)
-    if guess_password == "guess_password":  
+    if guess_password == "password8!":  
         conn = sqlite3.connect('feedback.db')  # Connect to the database
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM feedback")  # Fetch all feedback entries
